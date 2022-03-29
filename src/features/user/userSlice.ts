@@ -1,4 +1,4 @@
-import { createSlice } from "@reduxjs/toolkit";
+import { createSlice } from '@reduxjs/toolkit';
 
 interface UserState {
   users: any;
@@ -9,11 +9,11 @@ interface UserState {
 const initialState: UserState = {
   users: [],
   loading: false,
-  error: "",
+  error: '',
 };
 
 const userSlice = createSlice({
-  name: "user",
+  name: 'user',
   initialState,
   reducers: {},
 });
